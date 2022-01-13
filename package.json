@@ -1,0 +1,22 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "action": "node src/action.js",
+    "build": "ncc build src/action.js -o dist",
+    "ncc-dist": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haha861924/github-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haha861924/github-action/issues"
+  },
+  "homepage": "https://github.com/haha861924/github-action#readme"
+}
